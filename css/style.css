@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Pagina inicial do jogo */
+#inicio_jogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tb_inicial{
+    width: 600px;
+}
+
+.titulo th{
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.tb_inicial td p{
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.tb_inicial td input{
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+/* Colocar um efeito no botão */
+#btn-start{
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+#btn-start:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Palco do jogo */
+#palco_jogo{
+    margin-top: 50px;
+    display: none;
+    text-align: center;
+}
+
+#palco_jogo div{
+    display: inline-block;
+}
+
+.jogada{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.jogador{
+    text-align: center;
+    margin: 50px;
+}
+
+.nome_jogador1{
+    margin-top: 10px;
+}
